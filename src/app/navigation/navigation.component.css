@@ -1,0 +1,36 @@
+.navagation {
+    background-color: #444444;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+.navagation button {
+    float: left;
+    background-color: #444444;
+    color: #DDDDDD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+
+.navagation button.active  {
+    background-color:#333333;
+    color: #FFFFFF;
+    border: none;
+}
+
+.navagation button:hover {
+    background-color:#333333;
+    color: #FFFFFF;
+}
+
+#settings, #coworkers {
+    float: right;
+}
+
+
